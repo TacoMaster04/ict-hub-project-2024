@@ -1,34 +1,34 @@
 @font-face {
 	font-family: 'DM Sans 400';
-	src: url('assets/fonts/dm-sans-latin-400-normal-COF6noiJ.woff2') format('woff2');
+	src: url('assets/mazen_fonts/dm-sans-latin-400-normal-COF6noiJ.woff2') format('woff2');
 	font-weight: 400;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'DM Sans 700';
-	src: url('assets/fonts/dm-sans-latin-700-normal-1DREuLwQ.woff2') format('woff2');
+	src: url('assets/mazen_fonts/dm-sans-latin-700-normal-1DREuLwQ.woff2') format('woff2');
 	font-weight: 700;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Poppins 400';
-	src: url('assets/fonts/poppins-latin-400-normal-cpxAROuN.woff2') format('woff2');
+	src: url('assets/mazen_fonts/poppins-latin-400-normal-cpxAROuN.woff2') format('woff2');
 	font-weight: 400;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Poppins 500';
-	src: url('assets/fonts/poppins-latin-500-normal-C8OXljZJ.woff2') format('woff2');
+	src: url('assets/mazen_fonts/poppins-latin-500-normal-C8OXljZJ.woff2') format('woff2');
 	font-weight: 500;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Poppins 600';
-	src: url('assets/fonts/poppins-latin-600-normal-zEkxB9Mr.woff2') format('woff2');
+	src: url('assets/mazen_fonts/poppins-latin-600-normal-zEkxB9Mr.woff2') format('woff2');
 	font-weight: 600;
 	font-style: normal;
 }
