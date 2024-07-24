@@ -1,0 +1,339 @@
+@font-face {
+	font-family: 'DM Sans 400';
+	src: url('assets/fonts/dm-sans-latin-400-normal-COF6noiJ.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'DM Sans 700';
+	src: url('assets/fonts/dm-sans-latin-700-normal-1DREuLwQ.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Poppins 400';
+	src: url('assets/fonts/poppins-latin-400-normal-cpxAROuN.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Poppins 500';
+	src: url('assets/fonts/poppins-latin-500-normal-C8OXljZJ.woff2') format('woff2');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Poppins 600';
+	src: url('assets/fonts/poppins-latin-600-normal-zEkxB9Mr.woff2') format('woff2');
+	font-weight: 600;
+	font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.mazen_navBar {
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: white;
+}
+
+.mazen_navBarContainer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0.6rem 1.25rem;
+	margin-left: 3rem;
+	margin-right: 3rem;
+	height: 4.3rem;
+}
+
+.mazen_logo img {
+	height: 2rem;
+}
+
+.mazen_navLinks {
+	display: flex;
+	list-style: none;
+}
+
+.mazen_navLinks li {
+	margin: 0 0.6rem;
+}
+
+.mazen_navLinks a {
+	color: #1C1C1C;
+	text-decoration: none;
+	font-size: 0.9rem;
+	font-family: 'DM Sans 700';
+}
+
+.mazen_navLinks a:hover {
+	color: #007BFF;
+}
+
+.mazen_demoButton .mazen_button {
+	color: #396AFF;
+	padding: 0.6rem 1.25rem;
+	text-decoration: none;
+	border-radius: 1.25rem;
+	border-color: #396aff;
+	border-style: solid;
+	border-width: 0.063rem;
+	transition: background-color 0.3s;
+	font-family: 'Poppins 500';
+}
+
+.mazen_demoButton .mazen_button:hover {
+	background-color: #396aff;
+	color: white;
+	transition: 0.7s;
+}
+
+.mazen_navButtonsHidden {
+	display: none;
+}
+
+.mazen_startContainer {
+	padding-top: 5rem;
+	background: radial-gradient(circle, #d6e1fe, #fff)
+}
+
+.mazen_mainContainer {
+	width: 50%;
+	margin: 0 auto;
+	padding-top: 2rem;
+}
+
+.mazen_hero {
+	text-align: center;
+	font-family: 'DM Sans 700';
+	color: #007BFF;
+	font-size: 2rem;
+}
+
+.mazen_heroSub {
+	text-align: center;
+	color: rgb(24, 45, 107);
+	font-family: 'DM Sans 700';
+	font-size: 3rem;
+}
+
+.mazen_heroButtons {
+	display: flex;
+	justify-content: center;
+	margin: 1.3rem;
+}
+
+.mazen_heroDesc {
+	text-align: center;
+	color: rgb(156, 163, 175);
+	font-family: 'Poppins 400';
+	font-size: 1.125rem;
+	line-height: 1.75rem;
+}
+
+.mazen_heroButtons .mazen_getStarted {
+	background-color: #396aff;
+	border-color: #396aff;
+	color: white;
+	font-family: 'DM Sans 700';
+	font-size: 1.125rem;
+	border-style: solid;
+	border-width: 0.063rem;
+	padding: 0.6rem 1.25rem;
+	border-radius: 1.563rem;
+	margin-right: 0.625rem;
+}
+
+.mazen_heroButtons .mazen_getStarted:hover {
+	cursor: pointer;
+}
+
+.mazen_heroButtons .mazen_learnMore {
+	background-color: white;
+	border-color: #396aff;
+	color: #396aff;
+	font-family: 'DM Sans 700';
+	font-size: 1.125rem;
+	line-height: 1.75rem;
+	border-style: solid;
+	border-width: 0.063rem;
+	padding: 0.6rem 1.25rem;
+	border-radius: 1.563rem;
+}
+
+.mazen_heroButtons .mazen_learnMore:hover {
+	cursor: pointer;
+}
+
+.mazen_dashboard {
+	display: flex;
+	justify-content: center;
+}
+
+.mazen_sponsors {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	margin: auto;
+	height: 12rem;
+	width: 60%;
+	gap: 3rem;
+}
+
+.mazen_sponsors > * {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.mazen_allImages img {
+	gap: 2rem;
+	justify-content: center;
+}
+
+.mazen_insightsImage img {
+	display: flex;
+	justify-content: center;
+}
+
+.mazen_insights {
+	display: flex;
+	justify-content: center;
+	padding: 4rem;
+}
+
+.mazen_insightsHeader {
+	font-family: 'Popins 600';
+	font-size: 4rem;
+	color: #182d6b;
+}
+
+.mazen_insightsDesc {
+	font-family: 'Popins 400';
+	font-size: 1.5rem;
+	color: #909090;
+	margin-top: 2.5rem;
+}
+
+.mazen_insightsContainer .mazen_demoButton {
+	display: flex;
+	margin-top: 1.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+	.mazen_mainContainer {
+		width: 45%;
+	}
+
+	.mazen_sponsors {
+		height: 15rem;
+		width: 80%;
+	}
+
+	.mazen_insightsHeader {
+		font-family: 'Popins 600';
+		font-size: 3.5rem;
+		color: #182d6b;
+		width: 20rem;
+	}
+
+	.mazen_insightsImage img {
+		width: 28rem;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.mazen_navLinks {
+		display: none;
+	}
+
+	.mazen_hero {
+		font-size: 1rem;
+	}
+	
+	.mazen_heroSub {
+		margin: 0.6rem;
+		font-size: 2rem;
+	}
+	
+	.mazen_heroDesc {
+		font-size: 0.9rem;
+	}
+
+	.mazen_mainContainer {
+		width: 90%;
+	}
+
+	.mazen_navBarContainer {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.mazen_insightsHeader {
+		font-size: 2.5rem;
+	}
+
+	.mazen_navBarContainer .mazen_demoButton {
+		margin: auto;
+	}
+
+	.mazen_navButtonsHidden {
+		display: block;
+	}
+
+	.mazen_insights {
+		padding: 1rem;
+		flex-direction: column;
+	}
+
+	.mazen_insightsImage img {
+		margin-top: 1.5rem;
+		width: 100%;
+	}
+
+	.mazen_sponsors {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.mazen_sponsors {
+		width: 90%;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+	}
+
+	.mazen_insightsHeader {
+		width: 100%;
+		font-size: 2rem;
+	}
+}
+
+::-webkit-scrollbar {
+	width: 0.4rem;
+}
+
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px #a3a3a3;
+	border-radius: 0.625rem;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #396aff;
+	border-radius: 0.625rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #284bb5;
+}
