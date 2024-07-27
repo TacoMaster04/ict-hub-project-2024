@@ -1,10 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.shaptitle{
-    color:  #1C1C1C;
+
+.shaptitle {
+    color: #1C1C1C;
     font-family: Poppins;
     font-size: 64px;
     font-style: normal;
@@ -13,39 +14,44 @@
     text-transform: capitalize;
     margin-left: 5rem;
 }
-.shapp1{
+
+.shapp1 {
     font-family: Poppins;
     font-size: 24px;
     font-weight: 500;
     line-height: 36px;
     text-align: left;
-    margin-left: 5rem; 
+    margin-left: 5rem;
     width: 38.8125rem;
-    height: 9rem; 
-    color: #909090 ;
+    height: 9rem;
+    color: #909090;
     /* z-index: 1; */
 }
-.shapul1{
+
+.shapul1 {
     list-style-type: none;
-    margin-left:5rem;
-    color: #909090 ;
+    margin-left: 5rem;
+    color: #909090;
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    text-transform: capitalize; 
+    text-transform: capitalize;
 }
-.shapicon1{
+
+.shapicon1 {
     color: rgb(57, 106, 255);
     padding-bottom: 0.75rem;
     font-size: x-large;
     padding-right: 0.3125rem;
 }
-.shappart1{
+
+.shappart1 {
     display: flex;
 }
-.shaptitle2{
+
+.shaptitle2 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -53,7 +59,7 @@
     justify-content: center;
 }
 
-.shapwehave{
+.shapwehave {
     color: #1C1C1C;
     text-align: center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -66,8 +72,9 @@
     line-height: normal;
     text-transform: capitalize;
 }
-.shapreadyp{
-    color:  #909090;
+
+.shapreadyp {
+    color: #909090;
     text-align: center;
     font-family: Poppins;
     font-size: 24px;
@@ -75,168 +82,182 @@
     font-weight: 500;
     line-height: normal;
     text-transform: capitalize;
-    width:56.125rem;
-   
+    width: 56.125rem;
+
 }
-html,
-    body {
-      position: relative;
-      height: 100%;
-    }
 
-    body {
 
-      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-      font-size: 14px;
-      color: #000;
-    }
-
-    .swiper {
-      width: 80%;
-      height: 70%;
-    }
-
-    .swiper-slide {
-      text-align: center;
-      font-size: 18px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      gap: 0.625rem;
-      padding: 1.5rem;
-      border-radius: 24px;
-      box-shadow: 8px 8px 24px 0px rgba(0, 0, 0, 0.25);
-    }
-
-    .swiper-slide img {
-      display: block;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-
-body{
+.shapcontainer {
     position: relative;
-} 
-.shapw{
+    height: 100%;
+}
+
+body {
+
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+}
+
+.swiper {
+    width: 80%;
+    height: 70%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.625rem;
+    padding: 1.5rem;
+    border-radius: 24px;
+    box-shadow: 8px 8px 24px 0px rgba(0, 0, 0, 0.25);
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.shapw {
     display: flex;
     justify-content: center;
     align-content: center;
 }
-#shapw1{
+
+#shapw1 {
     position: absolute;
     right: 0;
     bottom: 0;
     z-index: 0;
 
 }
- #shapw2{
+
+#shapw2 {
     position: absolute;
-    top:5%;
+    top: 5%;
     right: 5%;
     z-index: 1;
-} 
-.shapbutton1{
+}
+
+.shapbutton1 {
     color: #FFF;
-    background:  #396AFF; 
+    background: #396AFF;
     font-family: Poppins;
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     border-radius: 1.5rem;
-    border:transparent;
+    border: transparent;
     padding: 1.375rem 6.3125rem;
-    display: flex; 
+    display: flex;
     justify-content: center;
-    align-items: center;  
+    align-items: center;
     gap: 0.625rem;
 }
-.shapdiffbutton{
+
+.shapdiffbutton {
     color: #396AFF;
-    background: #FFF ;
+    background: #FFF;
     /* display: flex; 
      justify-content: center;
     align-items: center;  */
 }
-.shapbutton1:hover{
+
+.shapbutton1:hover {
     cursor: pointer;
 }
-.shapul2{
+
+.shapul2 {
     list-style-type: none;
-    color: #909090 ;
+    color: #909090;
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    text-transform: capitalize; 
+    text-transform: capitalize;
     display: flex;
     flex-direction: column;
     align-items: start;
-    justify-content: flex-start; 
+    justify-content: flex-start;
     text-align: start;
-    gap: 1rem; 
+    gap: 1rem;
 }
-.shapul2diff{
+
+.shapul2diff {
     color: rgba(255, 255, 255, 0.65);
 }
-.shapicon2{
+
+.shapicon2 {
     display: flex;
     align-items: center;
-    gap: 0.5rem; 
+    gap: 0.5rem;
     color: rgb(57, 106, 255);
 }
-.shapicon2diff{
-    color:#FFFFFF;
+
+.shapicon2diff {
+    color: #FFFFFF;
 }
-.shapstartingf{
+
+.shapstartingf {
     display: flex;
     flex-direction: column;
-    gap:0.5rem;
+    gap: 0.5rem;
     width: 100%;
     margin-top: 1.5rem;
     border-top: #1C1C1C;
     border-top-width: 1px;
-    border-top-style:solid ;
+    border-top-style: solid;
     padding-top: 1.5rem;
 }
-.shapstartingfU{ 
+
+.shapstartingfU {
     display: flex;
     flex-direction: column;
-    gap:0.5rem;
+    gap: 0.5rem;
     width: 100%;
     margin-top: 1.5rem;
     border-top: rgba(255, 255, 255, 0.65);
     border-top-width: 1px;
-    border-top-style:solid ;
+    border-top-style: solid;
     padding-top: 1.5rem;
 }
-.shapbasic1{
-    color:#396AFF;
+
+.shapbasic1 {
+    color: #396AFF;
     font-family: Poppins;
     font-size: 48px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
 }
-.shapdiff{
+
+.shapdiff {
     color: #FFF;
 }
-.shapprice{
-    color:  #396AFF;
+
+.shapprice {
+    color: #396AFF;
     font-family: Poppins;
     font-size: 64px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
 }
-.shappricediff{
+
+.shappricediff {
     color: #FFF;
 }
-.shapsf{
-    color:  #909090;
+
+.shapsf {
+    color: #909090;
     font-family: Poppins;
     font-size: 20px;
     font-style: normal;
@@ -244,22 +265,27 @@ body{
     line-height: normal;
     text-transform: capitalize;
 }
-.shapsfdiff{
+
+.shapsfdiff {
     color: rgba(255, 255, 255, 0.65);
 }
-.shapback{
+
+.shapback {
     background-color: #FFF;
 }
-.shapback2{
+
+.shapback2 {
     background-color: #396AFF;
 }
-.shapcontainer{
+
+.shapcontainer {
     display: flex;
     flex-direction: column;
-    gap:6rem;
+    gap: 6rem;
     font-family: Poppins sans-serif;
 }
-#shapbook{
+
+#shapbook {
     color: #396AFF;
     font-family: Poppins;
     font-size: 36px;
@@ -268,7 +294,8 @@ body{
     line-height: normal;
     text-transform: capitalize;
 }
-#shapReadyid{
+
+#shapReadyid {
     color: #FFF;
     font-family: Poppins;
     font-size: 16px;
@@ -277,11 +304,12 @@ body{
     line-height: normal;
     text-transform: capitalize;
 }
-.shappart3{
+
+.shappart3 {
     position: relative;
-} 
-.shapblack
-{
+}
+
+.shapblack {
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -294,50 +322,60 @@ body{
     position: relative;
     top: 6rem;
     overflow: hidden;
-} 
-.shapbdemo{
+}
+
+.shapbdemo {
     display: flex;
     flex-direction: column;
-    gap:1rem;
-    width: 40%;/*change in responsive*/
+    gap: 1rem;
+    width: 40%;
+    /*change in responsive*/
 }
-.shapphoto2{
+
+.shapphoto2 {
     position: absolute;
-    right:5%;
+    right: 5%;
     top: 0;
 
 }
-.shapstar1{
+
+.shapstar1 {
     position: absolute;
-    top:10%;
+    top: 10%;
     right: 60%;
 }
-.shapstar2{
+
+.shapstar2 {
     position: absolute;
-    top:6%;
+    top: 6%;
     right: 40%;
 }
-.shapstar3{
+
+.shapstar3 {
     position: absolute;
-    top:50%;
+    top: 50%;
     right: 50%;
 }
-.shapstar4{
+
+.shapstar4 {
     position: absolute;
-    top:55%;
-    right:10%;
+    top: 55%;
+    right: 10%;
 }
-.shapstar5{
+
+.shapstar5 {
     position: absolute;
-    top:30%;
+    top: 30%;
     right: 2%;
 }
-.shapstar6{
+
+.shapstar6 {
     position: absolute;
-    top:90%;
+    top: 90%;
     right: 1%;
 }
-.shapbuttoninput{
+
+.shapbuttoninput {
     display: flex;
     width: 10rem;
     height: 3.125rem;
@@ -351,122 +389,149 @@ body{
     background-color: transparent;
     text-transform: capitalize;
 }
-.shapbuttoninput:hover{
+
+.shapbuttoninput:hover {
     color: #FFF;
     background-color: #396AFF;
     cursor: pointer;
-} 
-.shapbackgroudell{
+}
+
+.shapbackgroudell {
     position: relative;
 }
-#shapell10{
+
+#shapell10 {
     position: absolute;
     top: 85%;
 }
-@media(max-width:426px){
-   .shappart1{
-    flex-direction: column;
-   }  
-   .shaptitle{
-    margin-left: 2rem;
-   }
-   .shapp1{
-    margin-left: 2rem;
-    width: 80%;
-    height: 80%;
-    margin-right: 2rem;
-   }
-   .shapul1{
-    margin-left: 2rem;
-   }
-   .shaptext1{
-    display: flex;
-    flex-direction: column;
-    gap:2rem;
-   }
-   .shapw{
-    position: relative;
-    height:18.75rem;
-   }
-   #shapw1{
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 0;
-    width: 100%;
-    }
-    #shapw2{
-    position: absolute;
-    right: 5%;
-    top:10%;
-    z-index: 1;
-    width: 90%;
-    } 
-    .shapwehave{
-        width: 80%;
-    }
-    .shapreadyp{
-        width:80%;
-    }
-    .shapbackgroudell{
-        position: relative;
-    }
-    #shapell10{
-        top:250%;
-        width:100%; 
-    }
-    .shapbdemo{
-        width: 100%;
-    }
-    .shapblack{
-        height:37.5rem;
-    }
-    .shapphoto2{
-        right:0;
-        top:55%;
-        width: 90%;
-    }
-    .shapstar1{
-        position: absolute;
-        top:40%;
-        right: 80%;
-    }
-    .shapstar2{
-        position: absolute;
-        top:65%;
-        right: 90%;
-    }
-} 
 
-@media((min-width: 427px) and (max-width: 768px)){
-    .shapcontainer{
-        gap:100rem;
-    }
-    .shappart1{
+@media(max-width:426px) {
+    .shappart1 {
         flex-direction: column;
-    }  
-    .shaptitle{
+    }
+
+    .shaptitle {
         margin-left: 2rem;
     }
-    .shapp1{
+
+    .shapp1 {
+        margin-left: 2rem;
+        width: 80%;
+        height: 80%;
+        margin-right: 2rem;
+    }
+
+    .shapul1 {
+        margin-left: 2rem;
+    }
+
+    .shaptext1 {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .shapw {
+        position: relative;
+        height: 18.75rem;
+    }
+
+    #shapw1 {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 0;
+        width: 100%;
+    }
+
+    #shapw2 {
+        position: absolute;
+        right: 5%;
+        top: 10%;
+        z-index: 1;
+        width: 90%;
+    }
+
+    .shapwehave {
+        width: 80%;
+    }
+
+    .shapreadyp {
+        width: 80%;
+    }
+
+    .shapbackgroudell {
+        position: relative;
+    }
+
+    #shapell10 {
+        top: 250%;
+        width: 100%;
+    }
+
+    .shapbdemo {
+        width: 100%;
+    }
+
+    .shapblack {
+        height: 37.5rem;
+    }
+
+    .shapphoto2 {
+        right: 0;
+        top: 55%;
+        width: 90%;
+    }
+
+    .shapstar1 {
+        position: absolute;
+        top: 40%;
+        right: 80%;
+    }
+
+    .shapstar2 {
+        position: absolute;
+        top: 65%;
+        right: 90%;
+    }
+}
+
+@media((min-width: 427px) and (max-width: 768px)) {
+    .shapcontainer {
+        gap: 100rem;
+    }
+
+    .shappart1 {
+        flex-direction: column;
+    }
+
+    .shaptitle {
+        margin-left: 2rem;
+    }
+
+    .shapp1 {
         margin-left: 2rem;
         width: 90%;
         height: 80%;
         margin-right: 2rem;
     }
-    .shapul1{
+
+    .shapul1 {
         margin-left: 2rem;
     }
-    .shaptext1{
+
+    .shaptext1 {
         display: flex;
         flex-direction: column;
-        gap:2rem;
+        gap: 2rem;
     }
-    .shapw{
+
+    .shapw {
         position: relative;
-        height:30rem;
+        height: 30rem;
     }
-    #shapw1{
+
+    #shapw1 {
         position: absolute;
         top: 0;
         bottom: 10%;
@@ -474,48 +539,57 @@ body{
         z-index: 0;
         width: 100%;
     }
-    #shapw2{
+
+    #shapw2 {
         position: absolute;
         right: 5%;
-        top:10%;
+        top: 10%;
         z-index: 1;
         width: 90%;
-    } 
-    .shapwehave{
-            width: 90%;
     }
-    .shapreadyp{
-            width:90%;
+
+    .shapwehave {
+        width: 90%;
     }
-    .shapbackgroudell{
-            position: relative;
+
+    .shapreadyp {
+        width: 90%;
     }
-    #shapell10{
-        top:200%;
-        width:100%;
+
+    .shapbackgroudell {
+        position: relative;
     }
-    .shapbdemo{
+
+    #shapell10 {
+        top: 200%;
+        width: 100%;
+    }
+
+    .shapbdemo {
         width: 40%;
     }
-    .shapblack{
-        height:22rem;
+
+    .shapblack {
+        height: 22rem;
     }
-    .shapphoto2{
-        right:5%;
-        top:32%;
+
+    .shapphoto2 {
+        right: 5%;
+        top: 32%;
         width: 50%;
-        height:20rem;
+        height: 20rem;
     }
-    .shapstar1{
+
+    .shapstar1 {
         position: absolute;
-        top:70%;
+        top: 70%;
         right: 60%;
     }
-    .shapstar2{
+
+    .shapstar2 {
         position: absolute;
-        top:80%;
+        top: 80%;
         right: 90%;
     }
-    
-} 
 
+}
