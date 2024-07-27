@@ -464,7 +464,7 @@ body {
     }
 
     #shapell10 {
-        top: 250%;
+        top: 53%;
         width: 100%;
     }
 
@@ -496,9 +496,6 @@ body {
 }
 
 @media((min-width: 427px) and (max-width: 768px)) {
-    .shapcontainer {
-        gap: 100rem;
-    }
 
     .shappart1 {
         flex-direction: column;
@@ -560,7 +557,7 @@ body {
     }
 
     #shapell10 {
-        top: 200%;
+        top: 50%;
         width: 100%;
     }
 
