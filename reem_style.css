@@ -37,7 +37,7 @@
 }
 .payment_text p {
   color: gray;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 500;
   margin-bottom: 20px;
 }
@@ -47,9 +47,17 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
+    padding: 1rem;
   }
+ .payment_text .sectionbutton{
+  width: 50%;
+  height: 8vh;
+ }
   .payment_img {
     order: 2;
+  }
+  .payment_text h1{
+    font-size: 2rem;
   }
   .payment_img img {
     width: 100%;
@@ -60,7 +68,7 @@
   }
 }
 
-@media ((min-width: 481px) and (max-width:1023px)) {
+@media (max-width:1024px) {
   .payment_container {
     flex-direction: column;
     align-items: center;
@@ -69,12 +77,16 @@
     order: 2;
     width: 100%;
   }
+  .payment_text h1{
+    width: 100%;
+  }
   .payment_img img {
     width: 100%;
   }
   .payment_text {
     margin: 0;
   }
+
 }
 
 .sectionbutton {
@@ -116,7 +128,7 @@
 }
 .r_sectiontwo_text p {
   color: gray;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 500;
   margin-bottom: 20px;
 }
@@ -126,6 +138,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
+    padding: 1rem;
   }
   .r_sectiontwo_img {
     order: 2;
@@ -138,12 +151,21 @@
     width: 100%;
     margin: 0;
   }
+  .r_sectiontwo_text h1{
+    font-size: 2rem;
+    width: 100%;
+  }
+  .r_sectiontwo_text .sectionbutton{
+    width: 50%;
+    height: 8vh;
+  }
 }
-@media ((min-width: 481px)  and ( max-width: 1023px)) {
+@media ( max-width: 1023px) {
   .reem_sectiontwo {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    
   }
   .r_sectiontwo_img {
     width: 100%;
@@ -154,6 +176,7 @@
   .r_sectiontwo_text {
     margin: 0;
   }
+ 
 }
 
 .r_parentcurcile {
@@ -236,12 +259,17 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
+    padding: 1rem;
   }
   .r_middleimg {
     display: none;
   }
+  .iphonepic1{
+    display: none;
+  }
+  
 }
-@media ((min-width: 481px)  and ( max-width: 1023px)) {
+@media ( max-width: 1023px) {
   .r_middle {
     flex-direction: column;
     align-items: center;
