@@ -473,18 +473,18 @@ body {
     }
 
     .shapblack {
-        height: 37.5rem;
+        height: 40rem;
     }
 
     .shapphoto2 {
         right: 0;
-        top: 55%;
+        top: 60%;
         width: 90%;
     }
 
     .shapstar1 {
         position: absolute;
-        top: 40%;
+        top: 50%;
         right: 80%;
     }
 
@@ -587,7 +587,7 @@ body {
 
     .shapstar2 {
         position: absolute;
-        top: 80%;
+        top: 84%;
         right: 90%;
     }
 
