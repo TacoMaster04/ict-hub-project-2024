@@ -253,7 +253,7 @@ body{
 .shapback2{
     background-color: #396AFF;
 }
-.Shapcontainer{
+.shapcontainer{
     display: flex;
     flex-direction: column;
     gap:6rem;
