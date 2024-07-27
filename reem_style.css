@@ -1,0 +1,253 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.reem_all_project {
+  position: relative;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.payment_container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-bottom: 4rem;
+}
+
+.payment_img {
+  flex: 1;
+  order: 1;
+}
+
+.payment_text {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  order: 2;
+}
+.payment_text h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: rgb(47, 47, 117);
+}
+.payment_text p {
+  color: gray;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 480px) {
+  .payment_container {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .payment_img {
+    order: 2;
+  }
+  .payment_img img {
+    width: 100%;
+  }
+  .payment_text {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media ((min-width: 481px) and (max-width:1023px)) {
+  .payment_container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .payment_img {
+    order: 2;
+    width: 100%;
+  }
+  .payment_img img {
+    width: 100%;
+  }
+  .payment_text {
+    margin: 0;
+  }
+}
+
+.sectionbutton {
+  cursor: pointer;
+  background-color: transparent;
+  color: blue;
+  margin: 10px;
+  width: 20%;
+  height: 6vh;
+  border-radius: 2rem;
+  border-width: 1px;
+  border-color: rgb(84, 84, 245);
+  transition-duration: 0.5s;
+}
+.sectionbutton:hover {
+  background-color: rgb(9, 9, 243);
+  color: white;
+}
+
+.reem_sectiontwo {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-bottom: 4rem;
+}
+
+.r_sectiontwo_text {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.r_sectiontwo_text h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: rgb(5, 5, 80);
+}
+.r_sectiontwo_text p {
+  color: gray;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 480px) {
+  .reem_sectiontwo {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .r_sectiontwo_img {
+    order: 2;
+    width: 100%;
+  }
+  .r_sectiontwo_img img {
+    width: 100%;
+  }
+  .r_sectiontwo_text {
+    width: 100%;
+    margin: 0;
+  }
+}
+@media ((min-width: 481px)  and ( max-width: 1023px)) {
+  .reem_sectiontwo {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .r_sectiontwo_img {
+    width: 100%;
+  }
+  .r_sectiontwo_img img {
+    width: 100%;
+  }
+  .r_sectiontwo_text {
+    margin: 0;
+  }
+}
+
+.r_parentcurcile {
+  width: 35px;
+  height: 35px;
+  padding: 6px;
+  border-radius: 50%;
+  border: 3px dashed blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.r_parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 45px;
+}
+.r_curcile {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: blue;
+}
+.r_columndash {
+  height: 60px;
+  border-left: 2px dashed black;
+  position: relative;
+  left: 1px;
+}
+
+.reem_sectionthree {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.r_middle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.r_midmid {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.r_middleimg {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  z-index: -1;
+  left: 23%;
+  width: 50%;
+}
+.r_midsec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.r_midtext h3 {
+  font-size: 1.5rem;
+  margin-bottom: 4rem;
+}
+
+.r_bold {
+  font-weight: 700;
+}
+.r_notbold {
+  font-weight: 600;
+}
+@media (max-width: 480px) {
+  .r_middle {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .r_middleimg {
+    display: none;
+  }
+}
+@media ((min-width: 481px)  and ( max-width: 1023px)) {
+  .r_middle {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .r_middleimg {
+    align-items: center;
+  }
+}
