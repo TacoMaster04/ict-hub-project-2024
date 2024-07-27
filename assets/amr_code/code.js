@@ -1,4 +1,4 @@
-const swiper = new Swiper('.swiper', {
+var swiperTwo = new Swiper('.amrSwiper', {
 	// Optional parameters
 	direction: 'horizontal',
 	slidesPerView: 3,

@@ -11,10 +11,13 @@
 	<link rel="stylesheet" href="amr_style.css">
 
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
 		integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
 		crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
 		integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
 		crossorigin="anonymous" referrerpolicy="no-referrer"   />
@@ -218,9 +221,9 @@
 				<img src="assets/shap_images/Ellipse pricelist.png" alt="Error!" id="shapell10">
 
 
-				<div class="shap_swiper shap_mySwiper">
-					<div class="shap_swiper-wrapper">
-						<div class="shap_swiper-slide shapback">
+				<div class="swiper shapSwiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide shapback">
 
 							<p class="shapbasic1">Basic</p>
 
@@ -240,7 +243,7 @@
 							</ul>
 
 						</div>
-						<div class="shap_swiper-slide shapback2">
+						<div class="swiper-slide shapback2">
 							<p class="shapbasic1 shapdiff">Premium</p>
 
 							<div class="shapstartingfU">
@@ -255,10 +258,9 @@
 								<li><i class="shapicon2 shapicon2diff fa-solid fa-check"></i>FAQ section</li>
 								<li><i class="shapicon2 shapicon2diff fa-solid fa-check"></i>Live chat support</li>
 								<li><i class="shapicon2 shapicon2diff fa-solid fa-check"></i>Personalized
-									recommendations based on
-									member goals</li>
+									recommendations based on member goals</li>
 						</div>
-						<div class="shap_swiper-slide shapback">
+						<div class="swiper-slide shapback">
 							<p class="shapbasic1">Standard</p>
 
 							<div class="shapstartingf">
@@ -275,9 +277,7 @@
 								<li><i class="shapicon2 fa-solid fa-check"></i>Personalized recommendations based on
 									member goals</li>
 						</div>
-
-
-						<div class="shap_swiper-slide shapback2">
+						<div class="swiper-slide shapback2">
 							<p class="shapbasic1 shapdiff">Ultimate</p>
 
 							<div class="shapstartingfU">
@@ -292,12 +292,11 @@
 								<li><i class="shapicon2 shapicon2diff fa-solid fa-check"></i>FAQ section</li>
 								<li><i class="shapicon2 shapicon2diff fa-solid fa-check"></i>Live chat support</li>
 								<li><i class="shapicon2 shapicon2diff fa-solid fa-check"></i>Personalized
-									recommendations based on
-									member goals</li>
+									recommendations based on member goals</li>
 						</div>
 
 					</div>
-					<div class="shap_swiper-pagination"></div>
+					<div class="swiper-pagination"></div>
 				</div>
 			</div>
 		</div>
@@ -331,7 +330,7 @@
 	<div class="amr-part">
 		<!-- Swiper Slider -->
 		<h1 class="whattheysay">What they say</h1>
-		<div class="swiper mySwiper">
+		<div class="swiper amrSwiper">
 			<div class="swiper-wrapper">
 				<div class="swiper-slide">
 					<div class="card-text">
@@ -566,46 +565,9 @@
 	</footer>
 
 	<!-- Script -->
-	<script src="assets/amr_code/code.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-	<script>
-		var swiper = new Swiper(".shap_mySwiper", {
-			slidesPerView: 3,
-			spaceBetween: 24,
-			freeMode: true,
-			pagination: {
-				el: ".shap_swiper-pagination",
-				clickable: true,
-			},
-			breakpoints: {
-				// when window width is >= 320px
-				320: {
-					slidesPerView: 1,
-					spaceBetween: 10,
-				},
-				// when window width is >= 480px
-				480: {
-					slidesPerView: 1,
-					spaceBetween: 20,
-				},
-				// when window width is >= 640px
-				640: {
-					slidesPerView: 1,
-					spaceBetween: 30,
-				},
-				// when window width is >= 768px
-				768: {
-					slidesPerView: 2,
-					spaceBetween: 40,
-				},
-				// when window width is >= 1024px
-				1024: {
-					slidesPerView: 3,
-					spaceBetween: 24,
-				},
-			},
-		});
-	</script>
+	<script src="assets/amr_code/code.js"></script>
+	<script src="assets/shap_code/script.js"></script>
 </body>
 
 </html>
