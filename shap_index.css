@@ -131,6 +131,7 @@ body {
 
 #shapw1 {
     position: absolute;
+    top:0;
     right: 0;
     bottom: 0;
     z-index: 0;
@@ -401,7 +402,7 @@ body {
 
 #shapell10 {
     position: absolute;
-    top: 85%;
+    top: 65rem;
 }
 
 @media(max-width:426px) {
