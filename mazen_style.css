@@ -198,6 +198,11 @@
 	flex-direction: column;
 }
 
+.mazen_sponsors div img {
+	max-width: 100%;
+	height: auto;
+}
+
 .mazen_allImages img {
 	gap: 2rem;
 	justify-content: center;
