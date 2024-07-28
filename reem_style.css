@@ -6,8 +6,7 @@
 
 .reem_all_project {
   position: relative;
-  padding-left: 3rem;
-  padding-right: 3rem;
+  padding: 1rem;
 }
 
 .payment_container {
@@ -43,21 +42,19 @@
 }
 
 @media (max-width: 480px) {
+  
   .payment_container {
     flex-direction: column;
-    align-items: center;
     width: 100%;
-    padding: 1rem;
   }
- .payment_text .sectionbutton{
-  width: 50%;
-  height: 8vh;
- }
   .payment_img {
     order: 2;
   }
-  .payment_text h1{
+  .payment_text h1 {
     font-size: 2rem;
+  }
+  .payment_text p {
+    font-size: 1rem;
   }
   .payment_img img {
     width: 100%;
@@ -68,7 +65,8 @@
   }
 }
 
-@media (max-width:1024px) {
+@media (max-width: 1023px) {
+  
   .payment_container {
     flex-direction: column;
     align-items: center;
@@ -77,7 +75,7 @@
     order: 2;
     width: 100%;
   }
-  .payment_text h1{
+  .payment_text h1 {
     width: 100%;
   }
   .payment_img img {
@@ -86,18 +84,15 @@
   .payment_text {
     margin: 0;
   }
-
 }
 
 .sectionbutton {
   cursor: pointer;
   background-color: transparent;
   color: blue;
-  margin: 10px;
-  width: 20%;
-  height: 6vh;
-  border-radius: 2rem;
-  border-width: 1px;
+  padding: 0.6rem 1.25rem;
+  border-radius: 1.25rem;
+  border-width: 0.065px;
   border-color: rgb(84, 84, 245);
   transition-duration: 0.5s;
 }
@@ -136,9 +131,7 @@
 @media (max-width: 480px) {
   .reem_sectiontwo {
     flex-direction: column;
-    align-items: center;
     width: 100%;
-    padding: 1rem;
   }
   .r_sectiontwo_img {
     order: 2;
@@ -151,21 +144,19 @@
     width: 100%;
     margin: 0;
   }
-  .r_sectiontwo_text h1{
+  .r_sectiontwo_text h1 {
     font-size: 2rem;
     width: 100%;
   }
-  .r_sectiontwo_text .sectionbutton{
-    width: 50%;
-    height: 8vh;
+  .r_sectiontwo_text p {
+    font-size: 1rem;
   }
 }
-@media ( max-width: 1023px) {
+@media (max-width: 1023px) {
   .reem_sectiontwo {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    
   }
   .r_sectiontwo_img {
     width: 100%;
@@ -176,7 +167,6 @@
   .r_sectiontwo_text {
     margin: 0;
   }
- 
 }
 
 .r_parentcurcile {
@@ -259,17 +249,19 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    padding: 1rem;
   }
   .r_middleimg {
     display: none;
   }
-  .iphonepic1{
+  .iphonepic1 {
     display: none;
   }
-  
+  .r_midtext h3 {
+    font-size: 1rem;
+  }
 }
-@media ( max-width: 1023px) {
+@media (max-width: 1023px) {
+ 
   .r_middle {
     flex-direction: column;
     align-items: center;
@@ -279,3 +271,4 @@
     align-items: center;
   }
 }
+
